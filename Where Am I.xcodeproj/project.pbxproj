@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3292231D3F062C00F7DA53 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3292221D3F062C00F7DA53 /* CoreLocation.framework */; };
 		1EDFD35F1D3F05910046B395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDFD35E1D3F05910046B395 /* AppDelegate.swift */; };
 		1EDFD3611D3F05910046B395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDFD3601D3F05910046B395 /* ViewController.swift */; };
 		1EDFD3641D3F05910046B395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDFD3621D3F05910046B395 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E3292221D3F062C00F7DA53 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1EDFD35B1D3F05910046B395 /* Where Am I.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where Am I.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDFD35E1D3F05910046B395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EDFD3601D3F05910046B395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3292231D3F062C00F7DA53 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		1EDFD3521D3F05910046B395 = {
 			isa = PBXGroup;
 			children = (
+				1E3292221D3F062C00F7DA53 /* CoreLocation.framework */,
 				1EDFD35D1D3F05910046B395 /* Where Am I */,
 				1EDFD35C1D3F05910046B395 /* Products */,
 			);
@@ -286,6 +290,7 @@
 				1EDFD36F1D3F05910046B395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
