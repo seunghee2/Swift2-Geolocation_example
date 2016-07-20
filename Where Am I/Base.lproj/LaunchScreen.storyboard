@@ -14,14 +14,43 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2016 seunghee2. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBY-Vo-2fz">
+                                <rect key="frame" x="-2" y="626" width="378" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="WKz-ck-tMG"/>
+                                    <constraint firstAttribute="width" constant="378" id="kRM-WU-w4N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where Am I" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VnB-Er-Ic5">
+                                <rect key="frame" x="93" y="135" width="188" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="QIm-tO-lDY"/>
+                                    <constraint firstAttribute="height" constant="68" id="jRn-SI-NBS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jBY-Vo-2fz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ket-XZ-kg0"/>
+                            <constraint firstItem="VnB-Er-Ic5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Y40-iu-Dks"/>
+                            <constraint firstItem="VnB-Er-Ic5" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="115" id="cFJ-ig-ivC"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="jBY-Vo-2fz" secondAttribute="bottom" constant="20" id="vHl-S0-uDS"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.5" y="374.5"/>
         </scene>
     </scenes>
 </document>
